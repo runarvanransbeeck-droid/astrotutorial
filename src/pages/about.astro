@@ -2,7 +2,7 @@
 import "./styles/global.css";
 
 import BaseLayout from "./layouts/BaseLayout.astro";
-const { pageTitle } = Astro.props;
+const pageTitle = "About";
 
 const identity = {
     firstName: "Runar",
@@ -21,7 +21,6 @@ const skillColor = "crimson";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <h1>{pageTitle}</h1>
     <h2>... and my new Astro site!</h2>
 
     <p>
